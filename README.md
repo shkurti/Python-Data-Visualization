@@ -1,2 +1,2 @@
 # Python1
-This program reads the longitude and latitude of the weather stations around the world and visualize the temperatures that have been recorded from the stations.
+This program reads the longitude and latitude of the weather stations around the world and visualize the temperatures that have been recorded from the stations into a map. The data set is called Global Surface Summary of the Day (GSOD). This data set is basically records of the daily weather measurements (temperature, wind speed, humidity, pressure, and more) from 9000+ weather stations around the world. 
