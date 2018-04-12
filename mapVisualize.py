@@ -69,20 +69,11 @@ for j in range(12):
 			plt.clf()
 			m.drawcountries()
 			m.drawstates()
-			m.drawmeridians(np.arange(0, 360, 30))
-			m.drawparallels(np.arange(-90, 90, 30))
 			m.bluemarble()
 			x1,y1 = m(x,y)
 			color_by = t
-			scat = plt.scatter(x1,y1,c=t,s=10,marker='.',cmap=plt.cm.jet, vmin=tempmin, vmax = tempmax)
-			plt.title(chk1+"/"+chk2+"/2000")
+			scat = plt.scatter(x1,y1,c=t,s=2,marker='.',cmap=plt.cm.jet, vmin=tempmin, vmax = tempmax)
+			plt.title(chk2+"/"+chk1+"/2000")
 			plt.draw()
-			plt.pause(2)
-			
-
-
-
-
-
-
+			plt.savefig("map{}.png".format(i),dpi=300)
 
