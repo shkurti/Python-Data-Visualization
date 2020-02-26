@@ -1,4 +1,9 @@
 #!/usr/bin/env python -W ignore::DeprecationWarning
+
+
+import os
+os.environ['PROJ_LIB'] = 'C:/Users/Gladiator7/Anaconda3/pkgs/proj4-5.2.0-h6538335_1006/Library/share'#You need to add the environment path for proj "epsg"
+
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
@@ -75,5 +80,5 @@ for j in range(12):
 			scat = plt.scatter(x1,y1,c=t,s=2,marker='.',cmap=plt.cm.jet, vmin=tempmin, vmax = tempmax)
 			plt.title(chk2+"/"+chk1+"/2000")
 			plt.draw()
-			plt.savefig("map{}.png".format(i),dpi=300)
+			plt.savefig("2000/{}-{}-{}.jpeg".format(j+1,i+1,'2000'),dpi=300)
 
