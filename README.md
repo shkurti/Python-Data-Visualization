@@ -3,4 +3,11 @@ This program reads the longitude, latitude, temperatures and dates from two diff
 
 
 NOTE:
-I'm unable to provide the dataset here in github because it is very large. If you want to download the dataset please visit this link https://cloud.google.com/bigquery/public-data/noaa-gsod. You have to create an account in order to be able to download the entire dataset.
+I'm unable to provide the dataset here in github because it is very large. If you want to download the dataset please visit this link https://console.cloud.google.com/marketplace/details/noaa-public/gsod. You have to create an account in order to be able to download the entire dataset.
+
+
+
+
+Dataset Details
+
+ This public dataset was created by the National Oceanic and Atmospheric Administration (NOAA) and includes global data obtained from the USAF Climatology Center.  This dataset covers GSOD data between 1929 and present, collected from over 9000 stations.
